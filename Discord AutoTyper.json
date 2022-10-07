@@ -1,0 +1,23 @@
+function anything(){
+fetch("https://discord.com/api/v9/channels/1013116503115178076/typing", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,zh-Hant-TW;q=0.9",
+    "authorization": "OTE1MDE4OTUzNjQ5MTYwMjQ0.GEVKfV.Naxll_BLevEKY3W2Re9qFN0XgHa3IHuL64tM8c",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "x-debug-options": "bugReporterEnabled",
+    "x-discord-locale": "en-US",
+    "x-super-properties": "eyJvcyI6IldpbmRvd3MiLCJicm93c2VyIjoiRGlzY29yZCBDbGllbnQiLCJyZWxlYXNlX2NoYW5uZWwiOiJzdGFibGUiLCJjbGllbnRfdmVyc2lvbiI6IjEuMC45MDA2Iiwib3NfdmVyc2lvbiI6IjEwLjAuMTkwNDMiLCJvc19hcmNoIjoieDY0Iiwic3lzdGVtX2xvY2FsZSI6ImVuLVVTIiwiY2xpZW50X2J1aWxkX251bWJlciI6MTUxMjQ5LCJjbGllbnRfZXZlbnRfc291cmNlIjpudWxsfQ=="
+  },
+  "referrer": "https://discord.com/channels/1013116502007894017/1013116503115178076",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "POST",
+  "mode": "cors",
+  "credentials": "include"
+});
+setTimeout( function() {anything();},8000);
+}
+anything()
